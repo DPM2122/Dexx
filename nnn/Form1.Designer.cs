@@ -37,44 +37,49 @@ namespace nnn
             // 
             // aluNombre
             // 
-            this.aluNombre.Location = new System.Drawing.Point(89, 71);
+            this.aluNombre.Location = new System.Drawing.Point(119, 87);
+            this.aluNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.aluNombre.Name = "aluNombre";
-            this.aluNombre.Size = new System.Drawing.Size(100, 20);
+            this.aluNombre.Size = new System.Drawing.Size(132, 22);
             this.aluNombre.TabIndex = 0;
             // 
             // aluNota
             // 
-            this.aluNota.Location = new System.Drawing.Point(89, 201);
+            this.aluNota.Location = new System.Drawing.Point(119, 247);
+            this.aluNota.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(100, 20);
+            this.aluNota.Size = new System.Drawing.Size(132, 22);
             this.aluNota.TabIndex = 1;
             // 
             // listaAlumnos
             // 
-            this.listaAlumnos.Location = new System.Drawing.Point(89, 359);
+            this.listaAlumnos.Location = new System.Drawing.Point(119, 442);
+            this.listaAlumnos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listaAlumnos.Name = "listaAlumnos";
-            this.listaAlumnos.Size = new System.Drawing.Size(100, 20);
+            this.listaAlumnos.Size = new System.Drawing.Size(132, 22);
             this.listaAlumnos.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(506, 197);
+            this.button1.Location = new System.Drawing.Point(516, 241);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 3;
-            this.button1.Text = "ok";
+            this.button1.Text = "buscar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.aluNota);
             this.Controls.Add(this.aluNombre);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
